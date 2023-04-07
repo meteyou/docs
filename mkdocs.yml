@@ -17,3 +17,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/meteyou
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@meteyou
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/meteyou
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/meteyou"  target="_blank" rel="noopener">Stefan Dej (meteyou)</a>

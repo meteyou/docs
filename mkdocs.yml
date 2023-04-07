@@ -3,7 +3,11 @@ theme:
   name: material
   language: en
   plugins:
+    - navigation.indexes
     - search
+    - git-committers:
+        repository: meteyou/docs
+        branch: main
   palette:
     - scheme: default
       primary: indigo

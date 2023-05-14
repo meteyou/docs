@@ -4,6 +4,18 @@
 With CanBoot there is no physical intervention (e.g. pressing the boot button) required to flash/update firmware to the
 MCUs.
 
+!!! success "This guide is tested with the following boards:"
+
+    - BTT EBB36 & 42 v1.1
+    - BTT EBB36 & 42 v1.2
+    - BTT EBB SB2209/2240 v1.0
+
+!!! warning "This guide will not work with the following boards:"
+
+    - BTT EBB36 & 42 v1.0
+
+    These boards have a different MCU.
+
 ## Download CanBoot
 Clone the CanBoot repository:
 ``` bash
@@ -26,6 +38,7 @@ cd ~/CanBoot
 make menuconfig
 ```
 and use following config settings:
+
 - Micro-controller Architecture: **STMicroelectronics STM32**
 - Processor model: **STM32G0B1**
 - Build CanBoot deployment application: **8KiB bootloader**
@@ -51,7 +64,7 @@ make
 ```
 
 ## Flash CanBoot to the EBB
-!!! danger "Before you start the flashing process, disconnect the heater from the board!"
+??? danger "Before you start the flashing process, disconnect the heater from the board!"
 
     Up to version v1.1, the heater output is switched to on in DFU mode while in this mode!  
     This can lead to a fire! 🔥  

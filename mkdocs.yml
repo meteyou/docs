@@ -25,6 +25,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+# full navigation structure
 nav:
   - Home: index.md
   - BigTreeTech EBB:
@@ -35,10 +36,12 @@ nav:
     - Overview: btt-u2c/index.md
     - Candlelight: btt-u2c/candlelight.md
 
+# add some markdown extensions
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -46,6 +49,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+# add some social media buttons to the footer
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -55,5 +60,6 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/meteyou
 
+# add copyright to the footer
 copyright: |
   &copy; 2023 <a href="https://github.com/meteyou"  target="_blank" rel="noopener">Stefan Dej (meteyou)</a>

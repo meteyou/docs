@@ -1,6 +1,8 @@
 site_name: Klipper Misc Docs
 theme:
   name: material
+  features:
+    - content.code.copy
   language: en
   plugins:
     - navigation.indexes
@@ -25,11 +27,16 @@ theme:
 
 nav:
   - Home: index.md
+  - BigTreeTech EBB:
+      - Overview: btt-ebb/index.md
+      - Canboot (optional): btt-ebb/canboot.md
+      - Klipper: btt-ebb/klipper.md
   - BigTreeTech U2C:
     - Overview: btt-u2c/index.md
     - Candlelight: btt-u2c/candlelight.md
 
 markdown_extensions:
+  - admonition
   - attr_list
   - md_in_html
   - pymdownx.highlight:

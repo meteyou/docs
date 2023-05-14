@@ -31,7 +31,7 @@ path: ~/CanBoot
 is_system_service: False
 ```
 
-## Configure CanBoot for the EBB
+## Configure CanBoot
 Open the config dialog with the following commands:
 ``` bash
 cd ~/CanBoot
@@ -63,7 +63,7 @@ make clean
 make
 ```
 
-## Flash CanBoot to the EBB
+## Flash CanBoot
 ??? danger "Before you start the flashing process, disconnect the heater from the board!"
 
     Up to version v1.1, the heater output is switched to on in DFU mode while in this mode!  

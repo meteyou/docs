@@ -1,6 +1,6 @@
 # CanBoot bootloader (optional)
 
-[Canboot](https://github.com/Arksine/CanBoot) is a bootloader for MCUs to be able to update/flash them via CANBUS.  
+[Canboot](https://github.com/Arksine/CanBoot){:target="_blank"} is a bootloader for MCUs to be able to update/flash them via CANBUS.  
 With CanBoot there is no physical intervention (e.g. pressing the boot button) required to flash/update firmware to the
 MCUs.
 
@@ -96,7 +96,7 @@ If you want to update CanBoot, you have multiple possible ways to do this.
 
 ### Update CanBoot via USB
 If you want to update CanBoot via USB, you have to plug in a USB cable and continue with the "old" guide here:
-[Flash CanBoot to the EBB](#flash-canboot-to-the-ebb)
+[Flash CanBoot to the EBB](#flash-canboot)
 
 ### Update CanBoot via CAN
 Since the board can only be addressed via CAN, further CanBoot updates must also be flashed to the board via CAN.

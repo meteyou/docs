@@ -1,17 +1,33 @@
-# Welcome to MkDocs
+# Welcome my Klipper Misc Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+In this Documentation, you will find a comprehensive guide on setting up CAN devices with Klipper. Klipper is a powerful
+open-source firmware that allows you to optimize and expand your 3D printer setups.
 
-## Commands
+In this documentation, we ([DocGalaxyBlock](https://github.com/docgalaxyblock){:target=_blank} and me) will explain in
+detail how to integrate CAN devices into your Klipper configuration. CAN (Controller Area Network) is a serial
+communication standard used in various industrial and automotive applications. By using CAN, you can establish reliable
+and efficient communication between your host and control components, enhancing your printing results.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Additionally, this repository provides further specific instructions and information on Klipper. We cover exclusive
+guides to use Klipper specific functions. Our goal is to provide you with a comprehensive resource that enables you to
+unleash the full potential of Klipper.
 
-## Project layout
+We are committed to regularly updating this documentation and adding new content to ensure you have the latest
+information. We warmly invite you to actively participate in the community, ask questions, and provide suggestions for
+improvement. Together, we can contribute to making Klipper and the use of CAN devices even better.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Furthermore, we encourage you to utilize the [Issue Tracker](https://github.com/meteyou/docs/issues) and
+[PR (Pull Request)](https://github.com/meteyou/docs/pulls) section of this [repository](https://github.com/meteyou/docs)
+to suggest improvements or report any issues you encounter while using Klipper with CAN devices. Your feedback and
+contributions are highly valued, and they play a vital role in enhancing the overall Klipper experience for the
+community. Together, let's make Klipper and CAN integration even more robust and user-friendly.
+
+Please feel free to open new [issues](https://github.com/meteyou/docs/issues) or submit
+[pull requests](https://github.com/meteyou/docs/pulls) with your ideas, bug reports, or code contributions. We
+appreciate your active participation and look forward to collaborating with you to make Klipper and the CAN
+documentation as comprehensive and helpful as possible.
+
+Thank you for choosing this documentation. We hope it assists you in setting up and utilizing your Klipper-based
+controllers.
+
+**Let's get started!**

@@ -5,6 +5,7 @@ theme:
     - content.code.copy
     - navigation.sections
   icon:
+    logo: material/printer-3d
     repo: fontawesome/brands/github
   language: en
   plugins:
@@ -67,6 +68,7 @@ markdown_extensions:
 
 # add some social media buttons to the footer
 extra:
+  homepage: https://docs.meteyou.wtf
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/meteyou

@@ -12,15 +12,19 @@ theme:
         repository: meteyou/docs
         branch: main
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

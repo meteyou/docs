@@ -9,6 +9,15 @@ CANBUS adapter (candlelight FW) or a Klipper USB-to-CAN adapter.
 
     This guide was verified on a Pi running [MainsailOS](https://github.com/mainsail-crew/MainsailOS){:target="_blank"}
 
+There are multiple solutions to run the U2C with Klipper:
+
+- [CandleLight_FW (recommended)](/btt-u2c-v1.x/candlelight/)
+- [Klipper USB-to-CAN adapter](/btt-u2c-v1.x/klipper-usb-to-can-adapter/)
+
+The straightforward variant to use the U2C is the candlelight firmware. With this, very little has to be configured, and
+you don't have to update it with Klipper MCU updates. With the U2C, there are few advantages through the Klipper
+firmware since no freely assignable pins are available on the board.
+
 ### Links
 
 - [official Repository for the U2C v1.x](https://github.com/bigtreetech/u2c){:target="_blank"}

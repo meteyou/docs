@@ -11,8 +11,8 @@ sudo apt-get install cmake gcc-arm-none-eabi
 
 cd ~
 # clone git repo
-git clone https://github.com/candle-usb/candleLight_fw
-cd candleLight_fw
+git clone --depth=1 https://github.com/candle-usb/candleLight_fw
+cd ~/candleLight_fw
 
 # create cmake toolchain
 mkdir build
@@ -24,13 +24,11 @@ make candleLight_fw
 ```
 
 ## Flash CandleLight_FW
-First, the adapter must boot in DFU mode. Press the boot button and then connect the USB cable. With `dfu-util -l`,
-you can check whether the adapter is booted in DFU mode. This should look like this:
+First, the adapter must boot in DFU mode. Please press the boot button and then connect the USB cable. With
+`dfu-util -l`, you can check whether the adapter is booted in DFU mode. This should look like this:
 
-<figure markdown>
-  ![dfu-util-list](img/dfu-util-list.png){ width="800" }
-  <figcaption>dfu-util -l output</figcaption>
-</figure>
+If dfu-util can discover a board in DFU mode it should then look like this:
+![dfu-util -l output](img/dfu-util_-l.svg)
 
 If the BTT U2C has booted in DFU mode, you can flash it with this command:
 
@@ -38,10 +36,8 @@ If the BTT U2C has booted in DFU mode, you can flash it with this command:
 make flash-candleLight_fw
 ```
 
-<figure markdown>
-  ![make flash-candlelight](img/flash-candlelight.png){ width="500" }
-  <figcaption>make flash-candleLight_fw output</figcaption>
-</figure>
+It should then look like this:
+![flash candlelight](img/flash_candlelight.svg)
 
 ## Add can0 interface
 
@@ -49,19 +45,19 @@ Now you only have to create the interface in the OS. to do this, create the file
 fill it with the following content.
 
 ```bash
+# open file with nano
 sudo nano /etc/network/interfaces.d/can0
 ```
 
 ``` title="/etc/network/interfaces.d/can0"
-auto can0
+allow-hotplug can0
 iface can0 can static
-    bitrate 250000
+    bitrate 500000
     up ifconfig $IFACE txqueuelen 128
 ```
 
 To save and close the nano editor:  
-`ctrl+o` => save dialog  
-`ENTER` => confirm filename  
+`ctrl+s` => save file  
 `ctrl+x` => close editor
 
 After a reboot, the can interface should be ready.

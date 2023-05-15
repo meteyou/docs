@@ -46,9 +46,11 @@ nav:
         - Overview: btt-ebb/index.md
         - Canboot (optional): btt-ebb/canboot.md
         - Klipper: btt-ebb/klipper.md
-    - BigTreeTech U2C:
-      - Overview: btt-u2c/index.md
-      - Candlelight: btt-u2c/candlelight.md
+    - BigTreeTech U2C v1.x:
+      - Overview: btt-u2c-v1.x/index.md
+      - Candlelight: btt-u2c-v1.x/candlelight.md
+      - CanBoot (optional): btt-u2c-v1.x/canboot.md
+      - Klipper USB-to-CAN: btt-u2c-v1.x/klipper-usb2can.md
   - Klipper Tutorials:
     - PA-Calibration with LA-Test: pa-calibration-la-test/index.md
 

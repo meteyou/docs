@@ -23,7 +23,6 @@ This is an instruction to set up the BTT EBB36, EBB42 and EBB SB2209/2240 with K
     - [Size](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB36%20CAN%20V1.1/Hardware/BIGTREETECH%20EBB36%20CAN%20V1.1-SIZE.pdf){:target="_blank"}
     - [User Manual](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB36%20CAN%20V1.1/BIGTREETECH%20EBB36%20CAN%20V1.1%20User%20Manual.pdf){:target="_blank"}
 - [official Repository for the EBB42 v1.1 & v1.2](https://github.com/bigtreetech/EBB/tree/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB42%20CAN%20V1.1){:target="_blank"}
-    - [Sample config](https://github.com/bigtreetech/EBB/blob/master/EBB%20SB2240_2209%20CAN/sample-bigtreetech-ebb-sb-canbus-v1.0.cfg){:target="_blank"}
     - [Schematic](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB42%20CAN%20V1.1/Hardware/BIGTREETECH%20EBB42%20CAN%20V1.1-SCH.pdf){:target="_blank"}
     - [Size](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB42%20CAN%20V1.1/Hardware/BIGTREETECH%20EBB42%20CAN%20V1.1-SIZE.pdf){:target="_blank"}
     - [User Manual](https://github.com/bigtreetech/EBB/blob/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB42%20CAN%20V1.1/BIGTREETECH%20EBB42%20CAN%20V1.1%20User%20Manual.pdf){:target="_blank"}

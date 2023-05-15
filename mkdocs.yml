@@ -4,6 +4,8 @@ theme:
   features:
     - content.code.copy
     - navigation.sections
+  icon:
+    repo: fontawesome/brands/github
   language: en
   plugins:
     - navigation.indexes
@@ -29,6 +31,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+# add repo to mkdocs
+repo_name: meteyou/docs
+repo_url: https://github.com/meteyou/docs
 
 # full navigation structure
 nav:

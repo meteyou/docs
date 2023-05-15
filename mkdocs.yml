@@ -3,6 +3,7 @@ theme:
   name: material
   features:
     - content.code.copy
+    - navigation.sections
   language: en
   plugins:
     - navigation.indexes
@@ -32,13 +33,17 @@ theme:
 # full navigation structure
 nav:
   - Home: index.md
-  - BigTreeTech EBB:
-      - Overview: btt-ebb/index.md
-      - Canboot (optional): btt-ebb/canboot.md
-      - Klipper: btt-ebb/klipper.md
-  - BigTreeTech U2C:
-    - Overview: btt-u2c/index.md
-    - Candlelight: btt-u2c/candlelight.md
+  - CANBUS Guides:
+    - Overview: canbus/index.md
+    - BigTreeTech EBB:
+        - Overview: btt-ebb/index.md
+        - Canboot (optional): btt-ebb/canboot.md
+        - Klipper: btt-ebb/klipper.md
+    - BigTreeTech U2C:
+      - Overview: btt-u2c/index.md
+      - Candlelight: btt-u2c/candlelight.md
+  - Klipper Tutorials:
+    - PA-Calibration with LA-Test: pa-calibration-la-test/index.md
 
 # add some markdown extensions
 markdown_extensions:

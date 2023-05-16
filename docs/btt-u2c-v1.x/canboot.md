@@ -33,7 +33,6 @@ make menuconfig
 ```
 and use following config settings:
 
-- Enable extra low-level configuration options:** **check**
 - Micro-controller Architecture: **STMicroelectronics STM32**
 - Processor model: **STM32F072**
 - Build CanBoot deployment application: **8KiB bootloader**

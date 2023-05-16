@@ -54,6 +54,7 @@ nav:
     - BigTreeTech U2C v2.x:
       - Overview: btt-u2c-v2.x/index.md
       - Candlelight: btt-u2c-v2.x/candlelight.md
+      - CanBoot (optional): btt-u2c-v2.x/canboot.md
   - Klipper Tutorials:
     - PA-Calibration with LA-Test: pa-calibration-la-test/index.md
 

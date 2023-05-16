@@ -43,7 +43,7 @@ make
 ```
 
 ## Flash Klipper
-There are two ways to flash the Klipper firmware to the EBB.
+There are two ways to flash the Klipper firmware to the board.
 
 - [Flash the firmware via USB](#flash-klipper-via-usb) (without CanBoot)
 - [Flash the firmware via CAN](#flash-klipper-via-can) (with CanBoot)
@@ -65,7 +65,7 @@ dfu-util -a 0 -D ~/klipper/out/klipper.bin -s 0x08000000:mass-erase:force:leave
 ![dfu-util flash klipper](img/dfu-util_flash_klipper.svg)
 
 ### Flash Klipper via CAN
-This is the recommended way to flash the firmware to the EBB.
+This is the recommended way to flash the firmware, when you use CanBoot on your board.
 
 !!! node "The U2C must be in the bootloader mode"
 
@@ -109,7 +109,7 @@ To save and close the nano editor:
 After a reboot, the can interface should be ready.
 
 ## Add the MCU in Klipper (optional)
-Finally, you can add the EBB to your Klipper `printer.cfg` with its UUID:
+Finally, you can add the board to your Klipper `printer.cfg` with its UUID:
 ``` yaml title="printer.cfg"
 [mcu U2C]
 canbus_uuid: <uuid>

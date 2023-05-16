@@ -11,8 +11,8 @@ CANBUS adapter (candlelight FW) or a Klipper USB-to-CAN adapter.
 
 There are multiple solutions to run the U2C with Klipper:
 
-- [CandleLight_FW (recommended)](/btt-u2c-v1.x/candlelight/)
-- [Klipper USB-to-CAN adapter](/btt-u2c-v1.x/klipper-usb-to-can-adapter/)
+- [CandleLight_FW (recommended)](candlelight.md)
+- [Klipper USB-to-CAN adapter](klipper-usb-to-can.md)
 
 The straightforward variant to use the U2C is the candlelight firmware. With this, very little has to be configured, and
 you don't have to update it with Klipper MCU updates. With the U2C, there are few advantages through the Klipper

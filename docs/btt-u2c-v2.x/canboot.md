@@ -70,19 +70,4 @@ If your board is in DFU mode, you can flash CanBoot with the following command:
 dfu-util -a 0 -D ~/CanBoot/out/canboot.bin -s 0x08000000:mass-erase:force:leave
 ```
 ![dfu-util -l](img/dfu-util_flash_canboot.svg)
-Now press the reset button and if the flash process was successfully one LED should blink now.
-
-## Update CanBoot
-If you want to update CanBoot, you have multiple possible ways to do this.
-
-### Update CanBoot via USB
-If you want to update CanBoot via USB, you have to plug in a USB cable and continue with the "old" guide here:
-[Flash CanBoot via USB](#flash-canboot)
-
-### Update CanBoot via CAN
-Since the board can only be addressed via CAN, further CanBoot updates must also be flashed to the board via CAN.
-This is very easy with the CanBoot bootloader:
-``` bash
-python3 ~/CanBoot/scripts/flash_can.py -f ~/CanBoot/out/canboot.bin -i can0 -u <uuid>
-```
-![CanBoot update via CAN](img/canboot_update_canboot.svg)
+Now power cycle the board if the flash process was successfully one LED should blink now.

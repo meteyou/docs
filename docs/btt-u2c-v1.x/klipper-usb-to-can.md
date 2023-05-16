@@ -52,8 +52,7 @@ There are two ways to flash the Klipper firmware to the board.
 This is the classic way to flash the firmware to the board.
 
 First, you have to put the board into DFU mode. To do this, press and hold the boot button and then disconnect and
-reconnect the power supply, or press the reset button on the board. With the command `dfu-util -l`, you can check if the
-board is in DFU mode.
+reconnect the power supply. With the command `dfu-util -l`, you can check if the board is in DFU mode.
 
 It should then look like this:
 ![dfu-util -l](img/dfu-util_-l.svg)

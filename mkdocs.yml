@@ -50,7 +50,7 @@ nav:
       - Overview: btt-u2c-v1.x/index.md
       - Candlelight: btt-u2c-v1.x/candlelight.md
       - CanBoot (optional): btt-u2c-v1.x/canboot.md
-      - Klipper USB-to-CAN: btt-u2c-v1.x/klipper-usb2can.md
+      - Klipper USB-to-CAN: btt-u2c-v1.x/klipper-usb-to-can.md
   - Klipper Tutorials:
     - PA-Calibration with LA-Test: pa-calibration-la-test/index.md
 

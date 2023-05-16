@@ -6,7 +6,7 @@ firmware to the MCUs.
 
 !!! success "This guide is tested with the following boards:"
 
-    - BigTreeTech U2C v1.1
+    - BigTreeTech U2C v2.1
 
     This guide was verified on a Pi running [MainsailOS](https://github.com/mainsail-crew/MainsailOS){:target="_blank"}
 
@@ -34,19 +34,19 @@ make menuconfig
 and use following config settings:
 
 - Micro-controller Architecture: **STMicroelectronics STM32**
-- Processor model: **STM32F072**
+- Processor model: **STM32G0B1**
 - Build CanBoot deployment application: **8KiB bootloader**
 - Clock Reference: **8 MHz crystal**
 - Communication interface: **USB (on PA11/PA12)**
 - Application start offset: **8KiB offset**
 - Support bootloader entry on rapid double click of reset button: **check**
 - Enable Status LED: **check**
-- Status LED GPIO Pin: **PA14**
+- Status LED GPIO Pin: **PA13**
 
 this should then look like this:
 <figure markdown>
   ![CanBoot config](img/canboot-make-menuconfig.png)
-  <figcaption>CanBoot config for U2C v1.x</figcaption>
+  <figcaption>CanBoot config for U2C v2.x</figcaption>
 </figure>
 use `q` for exit and `y` for save these settings.
 

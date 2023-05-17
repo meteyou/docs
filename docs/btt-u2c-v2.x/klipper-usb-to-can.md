@@ -45,11 +45,10 @@ make
 ## Flash Klipper
 There are two ways to flash the Klipper firmware to the board.
 
-- [Flash the firmware via USB](#flash-klipper-via-usb) (without CanBoot)
-- [Flash the firmware via USB](#flash-klipper-via-usb-without-firmware) (with CanBoot)
-- [Flash the firmware via CAN](#flash-klipper-via-can) (with CanBoot)
+- [Flash the firmware via USB](#flash-klipper-via-usb-without-canboot) (without CanBoot)
+- [Flash the firmware via USB](#flash-klipper-via-usb-with-canboot) (with CanBoot)
 
-### Flash Klipper via USB
+### Flash Klipper via USB without CanBoot
 This is the classic way to flash the firmware to the board.
 
 First, you have to put the board into DFU mode. To do this, press and hold the boot button and then disconnect and
@@ -64,7 +63,7 @@ dfu-util -a 0 -D ~/klipper/out/klipper.bin -s 0x08000000:mass-erase:force:leave
 ```
 ![dfu-util flash klipper](img/dfu-util_flash_klipper.svg)
 
-### Flash Klipper via USB without firmware
+### Flash Klipper via USB with CanBoot
 This method is necessary if you don't have Klipper on your board, but flashed the CanBoot firmware already.
 
 At first, you have to get the serial ID for your board. To do this, you have to exectute the following command:
@@ -82,27 +81,6 @@ This should look like this:
 ![Flash Klipper via USB with CanBoot](img/canboot_flash_klipper.svg)
 
 Power cycle the board and you are done.
-
-### Flash Klipper via CAN
-This is the recommended way to flash the firmware, when you use CanBoot on your board.
-
-!!! node "The U2C must be in the bootloader mode"
-
-    The status LED should blink in the bootloader mode. If not, double press the reset button to enter the bootloader
-    mode.
-
-Find the UUID of your U2C:
-``` bash
-python3 ~/CanBoot/scripts/flash_can.py -i can0 -q
-```
-The output should look like this:
-![CanBoot query can](img/canboot_query_can.svg)
-
-With the UUID you have just read, you can now flash the board with:
-``` bash
-python3 ~/CanBoot/scripts/flash_can.py -f ~/klipper/out/klipper.bin -i can0 -u <uuid>
-```
-![Flash Klipper via CanBoot](img/canboot_flash_klipper.svg)
 
 ## Add can0 interface
 

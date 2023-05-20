@@ -58,6 +58,9 @@ nav:
       - Klipper USB-to-CAN: btt-u2c-v2.x/klipper-usb-to-can.md
   - Klipper Tutorials:
     - PA-Calibration with LA-Test: pa-calibration-la-test/index.md
+    - SSD1306 Display:
+      - Overview: ssd1306-display/index.md
+      - RPi with Host-MCU: ssd1306-display/rpi-host-mcu.md
 
 # add some markdown extensions
 markdown_extensions:

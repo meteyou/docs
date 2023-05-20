@@ -86,11 +86,6 @@ dfu-util -a 0 -D ~/klipper/out/klipper.bin -s 0x08000000:mass-erase:force:leave
 ### Flash Klipper via CAN
 This is the recommended way to flash the firmware, when you use CanBoot on your board.
 
-!!! node "The board must be in the bootloader mode"
-
-    The status LED should blink in the bootloader mode. If not, double press the reset button to enter the bootloader
-    mode.
-
 Find the UUID of your board:
 ``` bash
 python3 ~/CanBoot/scripts/flash_can.py -i can0 -q

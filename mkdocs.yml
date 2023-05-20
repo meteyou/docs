@@ -44,7 +44,7 @@ nav:
     - Overview: canbus/index.md
     - BigTreeTech EBB:
         - Overview: btt-ebb/index.md
-        - Canboot (optional): btt-ebb/canboot.md
+        - CanBoot (optional): btt-ebb/canboot.md
         - Klipper: btt-ebb/klipper.md
     - BigTreeTech U2C v1.x:
       - Overview: btt-u2c-v1.x/index.md
@@ -56,6 +56,10 @@ nav:
       - Candlelight: btt-u2c-v2.x/candlelight.md
       - CanBoot (optional): btt-u2c-v2.x/canboot.md
       - Klipper USB-to-CAN: btt-u2c-v2.x/klipper-usb-to-can.md
+    - Mellow Fly SHT v1:
+        - Overview: mellow-fly-sht-v1/index.md
+        - CanBoot (optional): mellow-fly-sht-v1/canboot.md
+        - Klipper: mellow-fly-sht-v1/klipper.md
   - Klipper Tutorials:
     - PA-Calibration with LA-Test: pa-calibration-la-test/index.md
     - SSD1306 Display:

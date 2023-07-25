@@ -41,7 +41,6 @@ repo_url: https://github.com/meteyou/docs
 nav:
   - Home: index.md
   - CANBUS Guides:
-    - Overview: canbus/index.md
     - BigTreeTech EBB:
         - Overview: btt-ebb/index.md
         - CanBoot (optional): btt-ebb/canboot.md

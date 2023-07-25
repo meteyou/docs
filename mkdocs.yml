@@ -45,6 +45,7 @@ nav:
         - Overview: btt-ebb/index.md
         - CanBoot (optional): btt-ebb/canboot.md
         - Klipper: btt-ebb/klipper.md
+    - BigTreeTech Pi + U2C: btt-pi-u2c/index.md
     - BigTreeTech U2C v1.x:
       - Overview: btt-u2c-v1.x/index.md
       - Candlelight: btt-u2c-v1.x/candlelight.md

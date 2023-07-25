@@ -68,7 +68,7 @@ nav:
 # mkdocs plugins
 plugins:
   - git-committers:
-      enabled: !ENV [DEPLOY, false]
+      enabled: !ENV [CI, false]
       repository: meteyou/docs
       branch: main
 

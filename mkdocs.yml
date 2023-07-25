@@ -65,13 +65,6 @@ nav:
   - Other Tutorials:
     - Snakeoil Certificates: snakeoil-certificates/index.md
 
-# mkdocs plugins
-plugins:
-  - git-committers:
-      enabled: !ENV [CI, false]
-      repository: meteyou/docs
-      branch: main
-
 # add some markdown extensions
 markdown_extensions:
   - admonition

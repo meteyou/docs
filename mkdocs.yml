@@ -12,9 +12,6 @@ theme:
     - navigation.indexes
     - search
     - content.code.copy
-    - git-committers:
-        repository: meteyou/docs
-        branch: main
   palette:
 
     # Palette toggle for light mode
@@ -67,6 +64,13 @@ nav:
       - RPi with Host-MCU: ssd1306-display/rpi-host-mcu.md
   - Other Tutorials:
     - Snakeoil Certificates: snakeoil-certificates/index.md
+
+# mkdocs plugins
+plugins:
+  - git-committers:
+      enabled: !ENV [DEPLOY, false]
+      repository: meteyou/docs
+      branch: main
 
 # add some markdown extensions
 markdown_extensions:

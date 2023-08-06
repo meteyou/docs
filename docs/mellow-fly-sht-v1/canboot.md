@@ -42,7 +42,7 @@ and use following config settings:
 - CAN bus speed: **500000**
 - Support bootloader entry on rapid double click of reset button: **check** *(optional but recommend)*
 - Enable Status LED: **check**
-- Status LED GPIO Pin: **!PA13**
+- Status LED GPIO Pin: **!PC13**
 
 this should then look like this:
 <figure markdown>

@@ -1,6 +1,7 @@
 ---
 title: Install Klipper, Moonraker, and Mainsail on the Dell Wyse 3040
-description: Learn how to install Klipper, Moonraker, and Mainsail with KIAUH on the Dell Wyse 3040 Thin Client to use it as a 3D printer host.
+description: Learn how to install Klipper, Moonraker, and Mainsail with KIAUH on
+   the Dell Wyse 3040 Thin Client to use it as a 3D printer host.
 ---
 
 # Install Klipper, Moonraker and Mainsail on the Dell Wyse 3040

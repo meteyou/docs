@@ -1,6 +1,7 @@
 ---
 title: Dell Wyse 3040 Thin Client
-description: The Dell Wyse 3040 Thin Client is a compact and energy-efficient Mini-PC, suitable for various projects like 3D printers with Klipper/Mainsail.
+description: The Dell Wyse 3040 Thin Client is a compact and energy-efficient
+  Mini-PC, suitable for various projects like 3D printers with Klipper/Mainsail.
 ---
 
 # Dell Wyse 3040 Thin Client

@@ -1,6 +1,7 @@
 ---
 title: Install Debian 12 on Dell Wyse 3040 Thin-Client
-description: Learn how to install Debian 12 on the Dell Wyse 3040 Thin Client to create a reliable and flexible operating system for your projects.
+description: Learn how to install Debian 12 on the Dell Wyse 3040 Thin Client to
+  create a reliable and flexible operating system for your projects.
 ---
 
 # Install Debian 12 on Dell Wyse 3040 Thin-Client

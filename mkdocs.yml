@@ -67,6 +67,7 @@ nav:
         - Overview: dell-wyse-3040/index.md
         - Install OS: dell-wyse-3040/install-os.md
         - Install Klipper: dell-wyse-3040/install-klipper.md
+    - NGINX Basic Auth: nginx-basic-auth/index.md
     - Snakeoil Certificates: snakeoil-certificates/index.md
 
 # add some markdown extensions
